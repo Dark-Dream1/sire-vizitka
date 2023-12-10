@@ -80,7 +80,7 @@
 }
 
 .join {
-  background-color: #FEBE02;
+  background-color: orange;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -95,6 +95,10 @@
   color: #1A1A1A;
   font-weight: bold;
   border-radius: 6px;
+}
+.join:hover {
+background-color: burlywood;
+padding: 40px;
 }
 
 .header-info-block {
@@ -151,7 +155,7 @@
 }
 
 .audio-block {
-  background-color: #242424;
+  background-color: #cccccc;
   display: flex;
   margin-top: 61px;
 }
@@ -167,7 +171,7 @@
 
 .play-btn {
   display: flex;
-  background-color: blue;
+  background-color: rgb(44, 28, 9);
   width: 40px;
   height: 40px;
   align-items: center;
@@ -213,9 +217,12 @@
   justify-content: center;
   align-items: center;
   font-size: 1.25rem;
-  background-color: blue;
+  background-color: rgb(185, 127, 39);
   color: white;
   cursor: pointer;
+}
+.control i:hover {
+  background-color: #000000;
 }
 
 .audio-author {
@@ -283,7 +290,7 @@
   width: 77px;
   background-color: #111;
   border-radius: 5px;
-  color: #fff;
+  color: #ffd95e;
   padding: 6px 0px;
   display: inline-flex;
   align-items: center;
